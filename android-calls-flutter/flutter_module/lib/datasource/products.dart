@@ -1,0 +1,60 @@
+import 'package:flutter_module/model/product_model.dart';
+
+final products = [
+  ProductModel(
+    id: 1,
+    rating: 3,
+    name: 'Samsung Galaxy S21',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    urlImage: 'samsung.png',
+    price: 5399,
+  ),
+  ProductModel(
+    id: 2,
+    rating: 4,
+    name: 'Iphone 12 Pro',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volutpat est velit egestas. Aenean pharetra magna ac placerat vestibulum lectus. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Quis vel eros donec ac odio. A scelerisque purus semper eget duis at. Mollis nunc sed id semper. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Praesent elementum facilisis leo vel fringilla est ullamcorper.',
+    urlImage: 'iphone.png',
+    price: 9067.15,
+  ),
+  ProductModel(
+    id: 3,
+    rating: 5,
+    name: 'Ipad 10,2',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volur.',
+    urlImage: 'ipad.png',
+    price: 2873,
+  ),
+  ProductModel(
+    id: 4,
+    rating: 2,
+    name: 'Cadeira Gamer Fury 7003',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volur.',
+    urlImage: 'cadeiragamer.png',
+    price: 1149,
+  ),
+  ProductModel(
+    id: 5,
+    rating: 5,
+    name: 'Teclado Gamer Redragon Kumara',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volur.',
+    urlImage: 'teclado.png',
+    price: 255.7,
+  ),
+  ProductModel(
+    id: 6,
+    rating: 4,
+    name: 'Fone De Ouvido Headset Gamer Com Led Warrior',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volur.',
+    urlImage: 'fone.png',
+    price: 136,
+  ),
+  ProductModel(
+    id: 7,
+    rating: 5,
+    name: 'Novo Echo Dot (4ª Geração)',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo duis ut diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Posuere urna nec tincidunt praesent semper. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Augue lacus viverra vitae congue eu consequat ac. Mattis aliquam faucibus purus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Enim ut sem viverra aliquet eget sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Dignissim enim sit amet venenatis urna cursus. Lacus vel facilisis volur.',
+    urlImage: 'alexa.png',
+    price: 379.5,
+  ),
+];
