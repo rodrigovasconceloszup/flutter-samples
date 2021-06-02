@@ -14,7 +14,6 @@ class Book {
   // Thumbnail thumbnail;
 }
 
-// TODO(gaaclarke): add this back when the https://github.com/flutter/flutter/issues/58896
 // crash is resolved.
 // class Thumbnail {
 //   String url;
